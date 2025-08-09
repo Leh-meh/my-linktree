@@ -94,7 +94,7 @@ function App() {
           alt="Foto de perfil"
           className="profile-pic"
         />
-        <h1>Letícia Medeiros – Front-end Developer</h1>
+        <h1>Leticia Medeiros – Front-end Developer</h1>
 
         <h2>
           🚀 Portfólio em construção | Conecte-se comigo pelas redes sociais!{" "}
