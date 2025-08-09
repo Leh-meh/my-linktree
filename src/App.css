@@ -57,13 +57,16 @@
 h1 {
   color: var(--text-color);
   margin-bottom: 15px;
-  font-size: 1.8rem;
+  margin-top: -0.3rem;
+  font-size: 1.4rem;
 }
 
 h2 {
   color: var(--secondary-text);
-  margin-bottom: 10px;
-  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.6rem;
+  font-size: 1.0rem;
+  font-weight: 550;
 }
 
 p {
@@ -168,3 +171,7 @@ p {
   color: var(--text-color);
   font-size: 1.2rem;
 }
+
+
+
+

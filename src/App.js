@@ -5,13 +5,19 @@ import {
   FaInstagram,
   FaGithub,
   FaLinkedin,
-  FaWhatsapp,
   FaDiscord,
   FaSun,
   FaMoon,
+  FaFolder,
 } from "react-icons/fa";
 
 const links = [
+  {
+  name: "Confira meu portfólio (em breve)",
+  url: ".",
+  done: false,
+  icon: <FaFolder className="icon" />,
+},
   {
     name: "Meu Instagram",
     url: "https://www.instagram.com/medeiross.dev/",
@@ -29,12 +35,6 @@ const links = [
     url: "https://www.linkedin.com/in/leticia-medeiros-204809309/",
     done: false,
     icon: <FaLinkedin className="icon" />,
-  },
-  {
-    name: "Meu WhatsApp",
-    url: "https://wa.me/5511971918268?text=Olá%20Letícia%2C%20vi%20seu%20perfil%20e%20gostaria%20de%20conversar!",
-    done: false,
-    icon: <FaWhatsapp className="icon" />,
   },
   {
     name: "Meu Discord",
@@ -70,11 +70,11 @@ function App() {
           scanlineIntensity={darkMode ? 0.2 : 0.07}
           speed={0.3}
           baseColor={darkMode ? "#0f0f1a" : "#f8fafc"}
-         colorPalette={
-  darkMode 
-    ? ['#00a2ff', '#a78bfa', '#00ffaa']  // Azul, roxo e verde
-    : ['#dbeafe', '#bfdbfe', '#93c5fd']   // Azuis claros
-}
+          colorPalette={
+            darkMode
+              ? ["#00a2ff", "#a78bfa", "#00ffaa"] // Azul, roxo e verde
+              : ["#dbeafe", "#bfdbfe", "#93c5fd"] // Azuis claros
+          }
         />
       </div>
 
@@ -94,15 +94,11 @@ function App() {
           alt="Foto de perfil"
           className="profile-pic"
         />
-        <h1>@medeiross.dev</h1>
+        <h1>Letícia Medeiros – Front-end Developer</h1>
 
-        <h2>🚀 Conecte-se comigo!</h2>
-
-        <p>
-          Sou desenvolvedora front-end apaixonada por criar experiências
-          digitais. Confira meus projetos, redes sociais e entre em contato por
-          aqui. 💻✨
-        </p>
+        <h2>
+          🚀 Portfólio em construção | Conecte-se comigo pelas redes sociais!{" "}
+        </h2>
 
         <div className="links-list">
           {links.map((link, index) => (
