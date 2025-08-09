@@ -28,10 +28,10 @@
 .linktree-box {
   position: relative;
   z-index: 10;
-  width: 90%;
+  width: 80%;              /* diminui a largura relativa */
   height: auto;
-  max-width: 500px;
-  padding: 40px;
+  max-width: 400px;        /* reduz a largura máxima */
+  padding: 25px;           /* menos espaço interno */
   background: var(--bg-color);
   backdrop-filter: blur(10px);
   border-radius: 15px;
